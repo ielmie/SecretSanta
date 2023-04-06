@@ -45,7 +45,7 @@ k=0
 while k<len(names):
     santa=names[k]
     santee=names[matches[k]]
-    filename= santa+'.txt'
+    filename= 'sample_output/'+santa+'.txt'
     f=open(filename, 'w')
     f.write('Hello '+santa+' you must buy a gift for '+santee+'.')
     f.close
